@@ -1,0 +1,16 @@
+{
+  "name": "karma-powershell-reporter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Teddy Sterne",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "ansi-regex": "^2.0.0",
+    "di": "0.0.1",
+    "node-powershell": "^2.0.2"
+  }
+}
