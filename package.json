@@ -14,7 +14,8 @@
   "description": "",
   "devDependencies": {
     "ansi-regex": "^2.0.0",
-    "di": "0.0.1",
+    "karma": "^1.2.0",
+    "karma-mocha-reporter": "^2.1.0",
     "node-powershell": "^2.0.2"
   }
 }

@@ -84,7 +84,9 @@ var getColor = function(str){
 };
 
 var PowershellReporter = function(baseReporterDecorator, config, logger, helper, formatError) {
-  //config.colors = false;
+  config.mochaReporter = config.powershellReporter || {};
+
+  config.mochaReporter.colors = true;
 
   baseReporterDecorator(this);
 
