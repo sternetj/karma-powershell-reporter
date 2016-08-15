@@ -6,7 +6,7 @@ The easiest way is to keep `karma-powershell-reporter` as a devDependency in you
 {
   "devDependencies": {
     "karma": "^1.0.0",
-    "karma-powershell-reporter": "^2.0.0"
+    "karma-powershell-reporter": "^1.0.0"
   }
 }
 ```
@@ -29,7 +29,7 @@ module.exports = function(config) {
 ```
 
 ## Options
-The `karma-powershell-reporter` leverages the reporting capabilities of `karma-mocha-reporter`. Any config option available to the `karma-mocha-reporter` is also available to the `karma-powershell-reporter` with the exception of the color capabilities. The config values can be found at the [chalk](https://github.com/litixsoft/karma-mocha-reporter#karma-mocha-reporter) github repo.
+The `karma-powershell-reporter` leverages the reporting capabilities of `karma-mocha-reporter`. Any config option available to the `karma-mocha-reporter` is also available to the `karma-powershell-reporter` with the exception of the ability to control specific colors. The config values can be found at the [chalk](https://github.com/litixsoft/karma-mocha-reporter#karma-mocha-reporter) github repo.
 
 The config values are set as such:
 
