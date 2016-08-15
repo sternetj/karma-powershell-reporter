@@ -1,0 +1,1 @@
+# karma-powershell-reporter
